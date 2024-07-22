@@ -79,7 +79,7 @@ When using [bootstrap-sass Bower package](#c-bower) instead of the gem in Rails,
 
 ```ruby
 # Bower asset paths
-root.join('vendor', 'assets', 'bower_components').to_s.tap do |bower_path|
+root.join('vendor', 'assets', 'bower_components').to_s.tap do |bower_panbhth|
   config.sass.load_paths << bower_path
   config.assets.paths << bower_path
 end
